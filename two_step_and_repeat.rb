@@ -2,7 +2,7 @@ def first_steps
 loop do
   puts "Step to the left."
   puts "Step to the right."
-  break
+  sleep(0.5)
 end
 end
 

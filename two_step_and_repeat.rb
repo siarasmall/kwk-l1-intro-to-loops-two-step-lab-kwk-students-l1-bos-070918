@@ -22,5 +22,12 @@ def break_dance
 x=0
 loop do
   x= x + 1
-
+  puts "Step to the left."
+  puts "Step to the right."
+  if x == 6
+    break
+  end
+end
+end
+ break_dance
 end
